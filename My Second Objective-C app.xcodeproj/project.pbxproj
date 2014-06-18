@@ -10,6 +10,7 @@
 		B2E3B3D718D4F9D500D10963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E3B3D618D4F9D500D10963 /* Foundation.framework */; };
 		B2E3B3DA18D4F9D500D10963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E3B3D918D4F9D500D10963 /* main.m */; };
 		B2E3B3DE18D4F9D500D10963 /* My_Second_Objective_C_app.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B2E3B3DD18D4F9D500D10963 /* My_Second_Objective_C_app.1 */; };
+		B2E3B3E618D6135600D10963 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E3B3E518D6135600D10963 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		B2E3B3D918D4F9D500D10963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2E3B3DC18D4F9D500D10963 /* My Second Objective-C app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "My Second Objective-C app-Prefix.pch"; sourceTree = "<group>"; };
 		B2E3B3DD18D4F9D500D10963 /* My_Second_Objective_C_app.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = My_Second_Objective_C_app.1; sourceTree = "<group>"; };
+		B2E3B3E418D6135600D10963 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B2E3B3E518D6135600D10963 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		B2E3B3CA18D4F9D500D10963 = {
 			isa = PBXGroup;
 			children = (
+				B2E3B3E418D6135600D10963 /* Person.h */,
+				B2E3B3E518D6135600D10963 /* Person.m */,
 				B2E3B3D818D4F9D500D10963 /* My Second Objective-C app */,
 				B2E3B3D518D4F9D500D10963 /* Frameworks */,
 				B2E3B3D418D4F9D500D10963 /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E3B3E618D6135600D10963 /* Person.m in Sources */,
 				B2E3B3DA18D4F9D500D10963 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
